@@ -43,13 +43,14 @@ public class SolutionTest {
     assertTrue(output1 == 17);
   }
 
-  @Test
+
   public void Test2() {
     final int[] A = inputs[4];
     final int[] B = inputs[5];
     final int[] C = inputs[6];
     final int[] D = inputs[7];
     int output1 = solution2.fourSumCount(A, B, C, D);
+    System.out.print("output 1 = " + output1);
     assertTrue(output1 == 17);
   }
 
