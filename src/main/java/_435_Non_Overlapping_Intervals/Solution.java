@@ -10,6 +10,11 @@ class Interval {
   Interval(int s, int e) { start = s; end = e; }
 }
 
+/**
+ * This solution uses a classic greedy algorithm, the proof of which is mentioned
+ * in http://blog.csdn.net/luoweifu/article/details/18195607
+ * https://xiaopc.org/2016/11/05/%E8%BD%AC-%E5%8C%BA%E9%97%B4%E8%B0%83%E5%BA%A6%E9%97%AE%E9%A2%98%E8%AF%A6%E8%A7%A3/
+ */
 public class Solution {
   public int eraseOverlapIntervals(Interval[] intervals) {
     Arrays.sort(intervals, new Comparator<Interval>(){
