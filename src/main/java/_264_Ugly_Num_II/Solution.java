@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class Solution {
+
+  // https://leetcode.com/problems/ugly-number-ii/?tab=Solutions explained the idea
   public int nthUglyNumber(int n) {
     List<Integer> list = new ArrayList<>();
     list.add(1);
